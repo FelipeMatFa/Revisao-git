@@ -5,13 +5,13 @@
 
 // Declarações
 const nome = "Felipe";
-let idade = 93;
+let idade = 40;
 
 // Desenvolvimento
 if (idade >= 18 && idade <= 70){
-    console.log(`${nome} é obrigado pois seu voto é obrigatório`);
+    console.log(`${nome} é obrigado a votar pois seu voto é obrigatório`);
 } else if (idade >= 16 && idade < 18 || idade > 70){
-    console.log(`${nome} não é obrigado a votar por seu voto ser facultativo`);
+    console.log(`${nome} não é obrigado a votar pois seu voto ser facultativo`);
 } else if (idade < 16){
     console.log(`${nome} não têm idade para votar`);
 }
